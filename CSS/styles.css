@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
+#helloBox{
+    height: 100vh;
+}
+
+#ysoy{
+    font-size: 20px;
+}
+
+li{
+    list-style: none;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 25px;
+}
+
+#mainMenu li{
+    padding: 5vh;
+}
+
+
+.flying_book{
+    width: 100px;
+    height: 80px;
+    animation: movingBooks 4s linear infinite;
+}
+
+@keyframes movingBooks {
+    0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(20px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    
+}
